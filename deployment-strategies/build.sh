@@ -6,8 +6,6 @@ CITATION_STYLE_LANGUAGE_FILE_NAME='acm-proceedings.csl'
 STYLE_FILE_NAME='acm-style.cls'
 COPYRIGHT_FILE_NAME='acmcopyright.sty'
 
-echo $CITATION_STYLE_LANGUAGE_FILE_NAME
-
 if [ ! -f ./$CITATION_STYLE_LANGUAGE_FILE_NAME ]; then
   echo "Downloading missing citation style language (CSL) file..."
   curl https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl --create-dirs -o $CITATION_STYLE_LANGUAGE_FILE_NAME
