@@ -2,3 +2,6 @@
 /acm-proceedings.csl
 /acm-style.cls
 /acmcopyright.sty
+
+*.swo
+*.swp

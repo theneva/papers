@@ -38,5 +38,5 @@ pandoc \
   src/introduction.md \
   src/background.md \
   src/method-and-results.md \
-  src/evaluation-framework.md \
+  src/discussion.md \
   src/conclusion.md
