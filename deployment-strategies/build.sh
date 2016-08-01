@@ -35,4 +35,8 @@ pandoc \
   --from markdown+autolink_bare_uris \
   --output $OUTPUT_FILE_NAME \
   metadata.yml \
-  src/paper.md
+  src/introduction.md \
+  src/background.md \
+  src/method-and-results.md \
+  src/evaluation-framework.md \
+  src/conclusion.md
