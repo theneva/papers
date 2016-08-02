@@ -25,7 +25,7 @@ pip install pandoc-fignos     # in-text reference to figures
 
 To build the paper as a docx file:
 
-1. Change $OUTPUT_FILE_NAME in `build.sh` to `OUTPUT_FILE_NAME='paper.docx'`
+1. Change `$OUTPUT_FILE_NAME` in `build.sh` to `OUTPUT_FILE_NAME='paper.docx'`
 2. `$ ./build.sh`
 3. `$ open paper.docx`
 
